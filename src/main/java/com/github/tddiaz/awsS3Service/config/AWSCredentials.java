@@ -1,4 +1,4 @@
-package com.github.tddiaz.awsS3Service.settings;
+package com.github.tddiaz.awsS3Service.config;
 
 /**
  * Created by tristandiaz on 11/8/17.
