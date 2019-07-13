@@ -1,10 +1,10 @@
 package com.github.tddiaz.awss3client.config;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 @Data
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class AWSCredentials {
     private final String accessKey;
     private final String secretAccessKey;

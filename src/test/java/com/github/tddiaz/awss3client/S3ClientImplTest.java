@@ -5,8 +5,6 @@ import com.amazonaws.services.s3.model.GetObjectRequest;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.PutObjectRequest;
 import com.amazonaws.services.s3.model.S3Object;
-import com.github.tddiaz.awss3client.config.AWSCredentials;
-import com.github.tddiaz.awss3client.config.AmazonS3ClientBuilder;
 import com.github.tddiaz.awss3client.config.S3Bucket;
 import com.github.tddiaz.awss3client.exception.S3ObjectNotFoundException;
 import com.github.tddiaz.awss3client.exception.S3ObjectStorageException;

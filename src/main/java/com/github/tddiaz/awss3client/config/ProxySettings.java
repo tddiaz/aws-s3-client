@@ -1,11 +1,11 @@
 package com.github.tddiaz.awss3client.config;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 @Data
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class ProxySettings {
-    private String host;
-    private int port;
+    private final String host;
+    private final int port;
 }

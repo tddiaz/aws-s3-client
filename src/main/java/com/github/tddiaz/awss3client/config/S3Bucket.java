@@ -1,7 +1,7 @@
 package com.github.tddiaz.awss3client.config;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 /**
  * Holds necessary information for accessing specified S3 Bucket and performing operations on {@link com.github.tddiaz.awss3client.S3Client}
@@ -9,7 +9,7 @@ import lombok.Data;
  * @author Tristan Diaz
  */
 @Data
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class S3Bucket {
 
     /**
